@@ -6,6 +6,6 @@ $('.order').click(function(e) {
 
         setInterval(() => {
             button.removeClass('animate');
-        }, 1000);
+        }, 10000);
     }
 });
