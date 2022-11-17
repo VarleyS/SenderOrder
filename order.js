@@ -1,11 +1,11 @@
 $('.order').click(function(e) {
     let button = $(this);
 
-    if(!button.hasClass('animate')) {
+    if (!button.hasClass('animate')) {
         button.addClass('animate');
 
-        setInterval(() => {
+        setTimeout(() => {
             button.removeClass('animate');
         }, 10000);
     }
-});
+}); 
